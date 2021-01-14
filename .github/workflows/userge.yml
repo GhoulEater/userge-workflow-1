@@ -2,8 +2,8 @@ name: setting up environment
 
 on:
   push:
-    branches: [main]:
-  workflow-dispatch:
+    branches: [main]
+  workflow_dispatch:  
   
 env:
  username: PrajwalS3
