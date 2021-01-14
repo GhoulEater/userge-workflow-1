@@ -48,7 +48,7 @@ jobs:
        - name: Loop workflow
          continue-on-error: true
          run: |
-              git clone https://github.com/PrajwalS3/userge-workflow loop
+              git clone https://github.com/PrajwalS3/userge-workflow-1 loop
               cd loop
               echo "1" >> loop.txt
               git add loop.txt
